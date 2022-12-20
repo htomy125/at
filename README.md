@@ -21,7 +21,7 @@ $ accl  ## alias
 ```bash
 $ oj login https://atcoder.jp/
 or
-$ ojl
+$ ojl  ## alias
 ```
 
 ## Reference
