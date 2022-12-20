@@ -24,6 +24,18 @@ or
 $ ojl  ## alias
 ```
 
+### Show config directory
+
+```bash
+$ acc config-dir
+```
+
+### Crate contest directory
+
+```bash
+$ acc new <contest-id> --template python
+```
+
 ## Reference
 
 * [atcoder-cli.git](https://github.com/Tatamo/atcoder-cli.git)
