@@ -1,5 +1,5 @@
 # at
-Docker environment for Atcoder contests.
+Docker environment for Atcoder contests(pypy). Using atcoder-cli.
 
 ## Usage
 ### Build the image
