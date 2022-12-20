@@ -7,6 +7,23 @@ Docker environment for Atcoder contests(pypy). Using atcoder-cli.
 $ docker build https://github.com/tomy125-ynwa/at.git#main
 ```
 
+### Run docker container
+```bash
+$ docker run -it --rm <repo:tag>
+```
+### login
+```bash
+$ acc login
+or
+$ accl  ## alias
+```
+
+```bash
+$ oj login https://atcoder.jp/
+or
+$ ojl
+```
+
 ## Reference
 
 * [atcoder-cli.git](https://github.com/Tatamo/atcoder-cli.git)
