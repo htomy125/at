@@ -13,40 +13,40 @@ $ docker run -it --rm <repo:tag>
 ```
 ### login
 ```bash
-$ acc login
+[container]$ acc login
 or
-$ accl  ## alias
+[container]$ accl  ## alias
 ```
 
 ```bash
-$ oj login https://atcoder.jp/
+[container]$ oj login https://atcoder.jp/
 or
-$ ojl  ## alias
+[container]$ ojl  ## alias
 ```
 
 ### Show config directory
 
 ```bash
-$ acc config-dir
+[container]$ acc config-dir
 ```
 
 ### Crate contest directory
 
 ```bash
-$ acc new <contest-id> --template python
+[container]$ acc new <contest-id> --template python
 ```
 
 ### Test the program
 
 ```bash
-$ cd <task-dir>
-$ oj test -c 'python main.py' -d tests
+[container]$ cd <task-dir>
+[container]$ oj test -c 'python main.py' -d tests
 ```
 
 ### Submit
 
 ```bash
-$ acc submit
+[container]$ acc submit
 ```
 
 ## Reference
