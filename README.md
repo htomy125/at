@@ -36,6 +36,19 @@ $ acc config-dir
 $ acc new <contest-id> --template python
 ```
 
+### Test the program
+
+```bash
+$ cd <task-dir>
+$ oj test -c 'python main.py' -d tests
+```
+
+### Submit
+
+```bash
+$ acc submit
+```
+
 ## Reference
 
 * [atcoder-cli.git](https://github.com/Tatamo/atcoder-cli.git)
