@@ -4,7 +4,7 @@ Docker environment for Atcoder contests(pypy). Using atcoder-cli.
 ## Usage
 ### Build the image
 ```bash
-$ docker build https://github.com/tomy125-ynwa/at.git#main
+$ docker build https://github.com/htomy125/at.git#main
 ```
 
 ### Run docker container
@@ -41,6 +41,12 @@ or
 ```bash
 [container]$ cd <task-dir>
 [container]$ oj test -c 'python main.py' -d tests
+```
+
+### Set Default Lang
+
+```bash
+[container]$ acc s main.py -- --guess-python-interpreter pypy
 ```
 
 ### Submit
